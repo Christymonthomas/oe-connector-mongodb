@@ -3,7 +3,7 @@
   "version": "2.2.0",
   "description": "The modified MongoDB connector for the LoopBack framework - customization done for oe-cloud.",
   "engines": {
-    "node": ">=6"
+    "node": ">=14"
   },
   "main": "index.js",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha test",
-    "lint": "eslint . "
+    "lint": "eslint ."
   },
   "keywords": [
     "connector",
@@ -27,7 +27,7 @@
     "bson": "1.1.0",
     "debug": "3.2.6",
     "loopback-connector": "4.6.1",
-    "mongodb": "^4.0.0",
+    "mongodb": "^5.0.0",
     "strong-globalize": "4.1.2"
   },
   "devDependencies": {
